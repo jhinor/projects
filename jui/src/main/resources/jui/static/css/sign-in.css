@@ -1,0 +1,99 @@
+@charset "utf-8";
+.jui-sign-in-bg {
+    background-color: #393D49;
+}
+
+.jui-sign-in-box {
+    width: 450px;
+    height: 330px;
+    margin: 10% auto;
+    background-color: rgba(255, 255, 255, 0.407843);
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.jui-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.jui-sign-in-box header {
+    height: 39px;
+    padding: 10px;
+    border-bottom: 1px solid aliceblue;
+}
+
+.jui-sign-in-box header h1 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.jui-sign-in-box .jui-sign-in-main {
+    height: 185px;
+    padding: 30px 90px 0;
+}
+
+.jui-sign-in-main .layui-form-item {
+    position: relative;
+}
+
+.jui-sign-in-main .layui-form-item .jui-sign-in-icon {
+    position: absolute;
+    color: #cccccc;
+    top: 10px;
+    left: 10px;
+}
+
+.jui-sign-in-main .layui-form-item input {
+    padding-left: 34px;
+}
+
+.jui-sign-in-box footer {
+    height: 35px;
+    padding: 10px 10px 0 10px;
+}
+
+.jui-sign-in-box footer p {
+    line-height: 35px;
+    text-align: center;
+}
+
+.jui-pull-left {
+    float: left !important;
+}
+
+.jui-pull-right {
+    float: right !important;
+}
+
+.jui-clear {
+    clear: both;
+}
+
+.jui-sign-in-remember {
+    line-height: 38px;
+}
+
+.jui-sign-in-remember .layui-form-switch {
+    margin-top: 0;
+}
+
+.jui-sign-in-code-box {
+    position: relative;
+    padding: 10px;
+}
+
+.jui-sign-in-code-box input {
+    position: absolute;
+    width: 100px;
+}
+
+.jui-sign-in-code-box img {
+    cursor: pointer;
+    position: absolute;
+    left: 115px;
+    height: 38px;
+}

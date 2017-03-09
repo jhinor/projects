@@ -47,8 +47,6 @@ public class MvcInfrastructureConf extends WebMvcConfigurerAdapter {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController(CONSTANT.PATH.LOGIN).setViewName(CONSTANT.PATH.LOGIN);
-        registry.addViewController(CONSTANT.PATH.SIGN_IN).setViewName(CONSTANT.PATH.SIGN_IN);
 
     }
 }

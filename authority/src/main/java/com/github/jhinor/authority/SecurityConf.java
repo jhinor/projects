@@ -57,10 +57,10 @@ public class SecurityConf {
         shiroFilterFactoryBean.setLoginUrl(CONSTANT.PATH.SIGN_IN);
         shiroFilterFactoryBean.setUnauthorizedUrl(CONSTANT.PATH.UNAUTHORIZED);
         Map<String, String> filterChainDefinitionMap = new LinkedHashMap<>();
-        filterChainDefinitionMap.put(CONSTANT.PATH.LOGIN, CONSTANT.FILTER.ANON);
-        filterChainDefinitionMap.put(CONSTANT.STATIC_PATH.JUI, CONSTANT.FILTER.ANON);
         filterChainDefinitionMap.put(CONSTANT.STATIC_PATH.STATIC, CONSTANT.FILTER.ANON);
         filterChainDefinitionMap.put(CONSTANT.STATIC_PATH.WEBJAR, CONSTANT.FILTER.ANON);
+        filterChainDefinitionMap.put("/index", CONSTANT.FILTER.ANON);
+        filterChainDefinitionMap.put("/main", CONSTANT.FILTER.ANON);
         filterChainDefinitionMap.put(CONSTANT.STATIC_PATH.ALL, CONSTANT.FILTER.AUTHC);
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
         return shiroFilterFactoryBean;

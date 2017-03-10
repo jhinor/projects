@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Sign In</title>
     <link rel="stylesheet" href="${path}/webjars/layui/1.0.7/css/layui.css" media="all"/>
-    <link rel="stylesheet" href="${path}/jui/static/css/sign-in.css"/>
+    <link rel="stylesheet" href="${path}/webjars/jui/css/sign-in.css"/>
 </head>
 <body class="jui-sign-in-bg">
 <div class="jui-canvas"></div>
@@ -51,6 +51,6 @@
     </footer>
 </div>
 <script type="text/javascript" src="${path}/webjars/layui/1.0.7/layui.js"></script>
-<script type="text/javascript" src="${path}/jui/static/js/sign-in.js"></script>
+<script type="text/javascript" src="${path}/webjars/jui/js/modules/sign-in.js"></script>
 </body>
 </html>

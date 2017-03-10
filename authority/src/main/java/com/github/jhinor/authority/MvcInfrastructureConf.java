@@ -16,7 +16,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  */
 @EnableWebMvc
 @Configuration
-@ComponentScan(basePackages = "com.github.jhinor.authority.mvc.controller", includeFilters = @ComponentScan.Filter(Controller.class))
+@ComponentScan(basePackages = {"com.github.jhinor.authority.mvc.controller","com.github.jhinor.jui.controller"}, includeFilters = @ComponentScan.Filter(Controller.class))
 public class MvcInfrastructureConf extends WebMvcConfigurerAdapter {
     @Bean
     public MultipartResolver multipartResolver() {

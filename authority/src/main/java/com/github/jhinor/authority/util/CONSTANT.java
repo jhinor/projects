@@ -19,7 +19,6 @@ public interface CONSTANT {
     interface MVC {
         String RESOLVER_SUFFIX = ".jsp";
         String RESOLVER_PREFIX = "/WEB-INF/jsp";
-        String JUI_RESOLVER_PREFIX = "/jui/jsp";
         long MAX_UPLOAD_SIZE = 1024 * 1024 * 20L;
     }
 
@@ -27,8 +26,6 @@ public interface CONSTANT {
      * const view name and view path
      */
     interface PATH {
-        String LOGIN = "/login";
-        String INDEX = "/index";
         String UNAUTHORIZED = "/unauthorized";
         String SIGN_IN = "/sign-in";
     }
@@ -37,12 +34,10 @@ public interface CONSTANT {
         String ALL = "/**";
         String STATIC = "/static/**";
         String WEBJAR = "/webjars/**";
-        String JUI = "/jui/**";
     }
 
     interface FILTER {
         String AUTHC = "authc";
         String ANON = "anon";
-        String LOGOUT = "logout";
     }
 }

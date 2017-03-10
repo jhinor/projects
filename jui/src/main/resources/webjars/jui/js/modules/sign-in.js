@@ -1,5 +1,5 @@
 layui.config({
-    base: 'jui/static/js/lib/'
+    base: 'webjars/jui/js/lib/'
 }).use(['jparticle', 'form'], function () {
     window.jQuery = window.$ = layui.jquery;
     var canvas = $('.jui-canvas');

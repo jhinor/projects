@@ -9,8 +9,8 @@ import java.util.Set;
  * @author shiyu.long
  */
 
-@Entity
 @Table
+@Entity
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
